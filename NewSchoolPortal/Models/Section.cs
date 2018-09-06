@@ -12,6 +12,6 @@ namespace NewSchoolPortal.Models
         public string SectionName { get; set; }
         public string Decription { get; set; }
         public int StaffID { get; set; }
-        public ICollection<Student> Students { get; set; }
+        public ICollection<Student> Students { get; set; } //collection of students
     }
 }
